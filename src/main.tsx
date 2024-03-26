@@ -8,6 +8,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 //pages
 
 import Home from './routes/Home';
+import Menu from './routes/Menu';
+import Drink from './routes/Drink.tsx';
+import DrinkNotAlcohol from './routes/DrinkNotAlcohol.tsx';
+import Portions from './routes/Portions.tsx';
+import Snack from './routes/Snack.tsx';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +22,30 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />
+      },
+      {
+        path: "menu",
+        element: <Menu />
+      },
+      {
+        path: "drinks",
+        element: <Drink />
+      },
+      {
+        path: "drinks-not-alcohol",
+        element: <DrinkNotAlcohol />
+      },
+      {
+        path: "portions",
+        element: <Portions />
+      },
+      {
+        path: "portions",
+        element: <Portions />
+      },
+      {
+        path: "snacks",
+        element: <Snack />
       }
     ]
   }

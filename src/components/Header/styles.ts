@@ -5,6 +5,7 @@ export const Container = styled.div`
    justify-content:center;
    flex-direction:column;
    padding: 1rem;
+   color:#FFF;
 `;
 
 export const ImgLogo = styled.img`

@@ -1,6 +1,7 @@
+import { useNavigate } from 'react-router';
+
 import {
     Container,
-    ImgLogo,
     Title,
     Text,
     TextSmall,
@@ -8,14 +9,15 @@ import {
     HorizontalLine,
     Button
 } from './styles'
+
 import { HiArrowCircleDown } from "react-icons/hi";
 
-import { HeaderProps } from './header'
+export default function Header(){
 
-export default function Header({ urlImg }: HeaderProps){
+    const navigate = useNavigate();
+
     return (
         <Container>
-            <ImgLogo src={urlImg} alt='Logo' />
             <Title>NOVIDADES BAR VITÓRIA</Title>
             <Text>CHEVICHE</Text>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px'}}>
@@ -38,7 +40,7 @@ export default function Header({ urlImg }: HeaderProps){
             </div>
 
             <HorizontalLine />
-            <Button>
+            <Button onClick={() => navigate('/menu')}>
                 <HiArrowCircleDown size={32} />
                 <p>Ver cárdapio completo</p>
             </Button>
