@@ -8,7 +8,7 @@ export const Container = styled.div`
    position:absolute;
    bottom:0;
    background:#323131;
-   height:70px;
+   height: 10vh;
    width:100%;
 `;
 

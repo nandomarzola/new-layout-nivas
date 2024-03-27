@@ -22,7 +22,6 @@ export const HorizontalLine = styled.hr`
 
 export const Title = styled.h1`
    font-size:18px;
-   margin-top:15px;
    padding:5px;
    width:240px;
    border-radius:8px;
