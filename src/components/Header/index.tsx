@@ -28,6 +28,7 @@ export default function Header(){
                 <img 
                     src="https://3ff5263b8f.cbaul-cdnwnd.com/ca391f83a3a3faaf706896ebafa56111/200000078-ac999ac99c/logo%20omega%20PNG.png?ph=3ff5263b8f"  
                     alt="Omega"
+                    style={{width:'42vh'}}
                 />    
             </div>  
             <HorizontalLine />
