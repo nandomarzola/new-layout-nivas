@@ -1,8 +1,12 @@
 import Header from "../components/Header"
+import Logo from "../components/Logo";
 
 const Home = () => {
     return (
-        <Header />
+        <>
+            <Logo urlImg="images/logoVitoria.jpeg" />
+            <Header />
+        </>
     )
 }
 

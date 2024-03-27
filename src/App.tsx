@@ -5,7 +5,6 @@ function App() {
 
   return (
     <>
-      <Logo urlImg="images/logoVitoria.jpeg" />
       <Outlet />
       {/* <Footer /> */}
     </>
