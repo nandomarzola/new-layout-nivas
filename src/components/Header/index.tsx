@@ -36,7 +36,7 @@ export default function Header(){
                 <img 
                     src="images/logo-planet.png"  
                     alt="Omega"
-                    style={{height:'8vh', width:'46vh', marginTop:'10px', marginBottom:'10px'}}
+                    style={{height:'6vh',  marginTop:'10px', marginBottom:'10px'}}
                 />
             </a>  
             <HorizontalLine />
