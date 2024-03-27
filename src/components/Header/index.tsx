@@ -14,7 +14,7 @@ export default function Header(){
     const navigate = useNavigate();
 
     return (
-        <Container>
+        <Container style={{marginLeft:'1rem', marginRight:'1rem'}}>
             <Title>PARCEIROS</Title>
             <div style={{display:'flex', justifyContent:'center', alignItems:'center', gap:'5px', marginTop:'15px'}}>
                 <img 
