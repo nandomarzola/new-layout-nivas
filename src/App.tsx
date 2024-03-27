@@ -8,7 +8,7 @@ function App() {
     <>
       <Logo urlImg="images/logoVitoria.jpeg" />
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

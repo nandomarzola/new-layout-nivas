@@ -17,7 +17,7 @@ export const HorizontalLine = styled.hr`
    border: 0;
    height: 1px; /* Altura da linha */
    background: linear-gradient(to right, #888, #F29F05, #888); /* Gradiente de cores */
-   margin: 20px 0; /* Espaçamento acima e abaixo da linha */
+   margin: 10px 0; /* Espaçamento acima e abaixo da linha */
 `;
 
 export const Title = styled.h1`
