@@ -3,9 +3,6 @@ import { useNavigate } from 'react-router';
 import {
     Container,
     Title,
-    Text,
-    TextSmall,
-    Price,
     HorizontalLine,
     Button
 } from './styles'
