@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { Price } from '../components/Header/styles';
 import { Footer } from '../components/Footer';
-import Logo from '../components/Logo';
 
 export const Container = styled.div`
    display:flex;
@@ -33,7 +32,6 @@ export const HorizontalLine = styled.hr`
 const Drink = () => {
     return (
        <>
-        <Logo urlImg="https://img.freepik.com/vetores-gratis/menu-logotipo-design-grafico_24908-54835.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1710979200&semt=ais" />
          <Container>
             <Title>CERVEJAS</Title>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
