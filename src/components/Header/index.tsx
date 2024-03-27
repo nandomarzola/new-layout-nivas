@@ -32,20 +32,12 @@ export default function Header(){
                 />    
             </a>  
             <HorizontalLine />      
-            <a href="https://www.instagram.com/nandomarzoladev/" style={{display:'flex', justifyContent:'center', alignItems:'center', gap:'5px',}}>
+            <a href="https://www.instagram.com/planetpetmarilia/" style={{display:'flex', justifyContent:'center', alignItems:'center', gap:'5px',}}>
                 <img 
-                    src="images/logo-transparent.png"  
+                    src="images/logo-planet.png"  
                     alt="Omega"
-                    style={{height:'12vh'}}
+                    style={{height:'8vh', width:'46vh', marginTop:'10px', marginBottom:'10px'}}
                 />
-            </a>  
-            <HorizontalLine />       
-            <a href="https://www.instagram.com/omegatechservice/" style={{display:'flex', justifyContent:'center', alignItems:'center', gap:'5px', }}>
-                <img 
-                    src="https://3ff5263b8f.cbaul-cdnwnd.com/ca391f83a3a3faaf706896ebafa56111/200000078-ac999ac99c/logo%20omega%20PNG.png?ph=3ff5263b8f"  
-                    alt="Omega"
-                    style={{width:'36vh'}}
-                />    
             </a>  
             <HorizontalLine />
             <Button onClick={() => navigate('/menu')} style={{marginTop:'4vh'}}>
