@@ -7,6 +7,7 @@ export const Container = styled.div`
 `;
 
 export const ImgLogo = styled.img`
-   width:12rem;
+   width:38vh;
    margin:0 auto;
+   margin-top:20px
 `;
