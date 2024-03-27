@@ -34,27 +34,27 @@ const Drink = () => {
             <Title>CERVEJAS</Title>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                 <TextSmall>HEINEKEN 600ML</TextSmall>
-                <Price> R$ 13,00</Price>
+                <Price> R$ 36,00</Price>
             </div>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px'}}>
                 <TextSmall>SKOL 600ML</TextSmall>
-                <Price> R$ 10,00</Price>
+                <Price> R$ 20,00</Price>
             </div>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px'}}>
                 <TextSmall>BRAHMA 600ML</TextSmall>
-                <Price> R$ 10,00</Price>
+                <Price> R$ 20,00</Price>
             </div>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px'}}>
                 <TextSmall>ANTARTICA BOA 600ML</TextSmall>
-                <Price> R$ 10,00</Price>
+                <Price> R$ 20,00</Price>
             </div>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px'}}>
                 <TextSmall>SUBZERO 600ML</TextSmall>
-                <Price> R$ 10,00</Price>
+                <Price> R$ 20,00</Price>
             </div>
             <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px'}}>
                 <TextSmall>SPATEN 600ML</TextSmall>
-                <Price> R$ 10,00</Price>
+                <Price> R$ 20,00</Price>
             </div>
             <HorizontalLine />
             <Title>DESTILADOS</Title>
