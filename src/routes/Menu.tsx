@@ -3,7 +3,6 @@ import { MdOutlineNoDrinks } from "react-icons/md";
 import { BiDrink } from "react-icons/bi";
 import { IoFastFood } from "react-icons/io5";
 import { PiBowlFoodFill } from "react-icons/pi";
-import { Footer } from "../components/Footer";
 
 const Menu = () => {
     return (
@@ -24,7 +23,7 @@ const Menu = () => {
                         <PiBowlFoodFill size={32} color="#000"/>
                     </Card>
             </div>
-            <Footer />
+            {/* <Footer /> */}
        </div>
     )
 }
