@@ -55,7 +55,7 @@ const DrinkNotAlcohol = () => {
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall>MISTA NA CHAPA </TextSmall>
-                        <TextSmall style={{fontSize: '10px'}}>(CONTRA-FILÉ, FRANGO, LINGUIÇA, CALABRESA,VINAGRETE, FAROFA)</TextSmall>
+                        <TextSmall style={{fontSize: '9px', fontWeight:'bold'}}>(CONTRA-FILÉ, FRANGO, LINGUIÇA, CALABRESA,VINAGRETE, FAROFA)</TextSmall>
                     </div>
                     <Price> R$ 5,00</Price>
                 </div>
