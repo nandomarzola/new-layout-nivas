@@ -18,9 +18,9 @@ export const Title = styled.h1`
    color:#F29F05;
 `
 export const TextSmall = styled.p`
-   font-size:12px;
-   font-family: "Roboto", sans-serif;
-   max-width:250px;
+    font-size:12px;
+    font-family: "Roboto", sans-serif;
+    max-width:250px;
     font-weight:bold
 `
 export const HorizontalLine = styled.hr`

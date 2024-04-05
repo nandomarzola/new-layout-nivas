@@ -10,7 +10,6 @@ body {
   background-color: black;
   min-height: 100vh;
   flex-shrink: 0;
-  height: 800px;
 }
 
 p {
