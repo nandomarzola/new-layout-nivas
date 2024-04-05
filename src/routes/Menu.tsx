@@ -24,7 +24,7 @@ const Menu = () => {
                         <PiBowlFoodFill size={32} color="#000"/>
                     </Card>
             </div>
-            <Footer />
+            {/* <Footer /> */}
        </div>
     )
 }

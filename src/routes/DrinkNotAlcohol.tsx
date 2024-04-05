@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { Price } from '../components/Header/styles';
 // import { Footer } from '../components/Footer';
 import { motion } from "framer-motion";
-import { Footer } from '../components/Footer';
 
 export const Container = styled.div`
    display:flex;
@@ -68,7 +67,7 @@ const DrinkNotAlcohol = () => {
                 <HorizontalLine />
             </motion.div>
         </Container>
-        <Footer />
+        {/* <Footer /> */}
        </>
     )
 }
