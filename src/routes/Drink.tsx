@@ -117,7 +117,7 @@ const Drink = () => {
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px'}}>
                     <TextSmall>CAMPARI</TextSmall>
-                    <Price> R$ 5,00</Price>
+                    <Price> R$ 10,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px'}}>
                     <TextSmall>VINHO</TextSmall>
