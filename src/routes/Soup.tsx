@@ -28,7 +28,7 @@ export const HorizontalLine = styled.hr`
    margin: 20px 0; /* Espaçamento acima e abaixo da linha */
 `;
 
-const DrinkNotAlcohol = () => {
+const Soup = () => {
     return (
        <>
          <Container>
@@ -38,30 +38,26 @@ const DrinkNotAlcohol = () => {
                 transition={{ duration: 0.8 }}
                 style={{ width: '12v'}} 
             >
-                <Title>BEBIDAS NÃO ALCOÓLICAS</Title>
+                <Title>CALDOS</Title>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
-                    <TextSmall>COCA-COLA 290ML</TextSmall>
-                    <Price> R$ 5,00</Price>
+                    <TextSmall>DOBRADINHA</TextSmall>
+                    <Price> R$ 35,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px'}}>
-                    <TextSmall>COCA-COLA LATA</TextSmall>
-                    <Price> R$ 6,00</Price>
+                    <TextSmall>MOÉLA</TextSmall>
+                    <Price> R$ 35,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px'}}>
-                    <TextSmall>COCA-COLA 1L</TextSmall>
-                    <Price> R$ 8,00</Price>
+                <TextSmall>LINGUA</TextSmall>
+                    <Price> R$ 35,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px'}}>
-                <TextSmall>COCA-COLA 600ML</TextSmall>
-                    <Price> R$ 7,00</Price>
+                    <TextSmall>MOCOTÓ</TextSmall>
+                    <Price> R$ 10,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px'}}>
-                    <TextSmall>SUCO 1L</TextSmall>
-                    <Price> R$ 14,00</Price>
-                </div>
-                <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px'}}>
-                    <TextSmall>COCA-COLA 2L</TextSmall>
-                    <Price> R$ 13,00</Price>
+                    <TextSmall>ESCONDIDINHO DE CARNE SECA</TextSmall>
+                    <Price> R$ 20,00</Price>
                 </div>
                 <HorizontalLine />
             </motion.div>
@@ -71,4 +67,4 @@ const DrinkNotAlcohol = () => {
     )
 }
 
-export default DrinkNotAlcohol;
+export default Soup;

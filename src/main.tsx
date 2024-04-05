@@ -13,6 +13,7 @@ import Drink from './routes/Drink.tsx';
 import DrinkNotAlcohol from './routes/DrinkNotAlcohol.tsx';
 import Portions from './routes/Portions.tsx';
 import Snack from './routes/Snack.tsx';
+import Soup from './routes/Soup.tsx';
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: "snacks",
         element: <Snack />
+      },
+      {
+        path: "soups",
+        element: <Soup />
       }
     ]
   }

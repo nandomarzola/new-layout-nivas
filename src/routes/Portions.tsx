@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { Price } from '../components/Header/styles';
-// import { Footer } from '../components/Footer';
 import { motion } from "framer-motion";
 
 export const Container = styled.div`
