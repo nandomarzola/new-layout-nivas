@@ -44,116 +44,116 @@ const DrinkNotAlcohol = () => {
                         <TextSmall style={{fontSize: '14px'}}>COSTELINHA</TextSmall>
                         <TextSmall style={{fontSize: '9px', fontWeight:'bold'}}>(MANDIOCA, CEBOLA)</TextSmall>
                     </div>
-                    <Price> R$ 55,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 55,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>FRANGO A PASSARINHO</TextSmall>
                         <TextSmall style={{fontSize: '9px', fontWeight:'bold'}}>(BATATA, CEBOLA)</TextSmall>
                     </div>
-                    <Price> R$ 55,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 55,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>PICANHA</TextSmall>
                         <TextSmall style={{fontSize: '9px', fontWeight:'bold'}}>(VINAGRETE, FAROFA)</TextSmall>
                     </div>
-                    <Price> R$ 90,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 90,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>MISTO NA CHAPA</TextSmall>
                         <TextSmall style={{fontSize: '9px', fontWeight:'bold'}}>(CONTRA-FILÉ, FRANGO, LINGUIÇA, CALABRESA,VINAGRETE, FAROFA)</TextSmall>
                     </div>
-                    <Price> R$ 70,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 70,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>FRIOS</TextSmall>
                         <TextSmall style={{fontSize: '9px', fontWeight:'bold'}}>(SALAME, QUEIJO, TOMATE, OVO, AZEITONA, PALMITO)</TextSmall>
                     </div>
-                    <Price> R$ 50,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 50,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>FRALDINHA</TextSmall>
                         <TextSmall style={{fontSize: '9px', fontWeight:'bold'}}>(MANDIOCA)</TextSmall>
                     </div>
-                    <Price> R$ 55,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 55,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>BATATA SIMPLES</TextSmall>
                     </div>
-                    <Price> R$ 20,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 20,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>BATATA</TextSmall>
                         <TextSmall style={{fontSize: '9px', fontWeight:'bold'}}>(QUEIJO, BACON)</TextSmall>
                     </div>
-                    <Price> R$ 35,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 35,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>MEDALHÃO</TextSmall>
                         <TextSmall style={{fontSize: '9px', fontWeight:'bold'}}>(TILÁPIA, QUEIJO, BACON, AZEITONA)</TextSmall>
                     </div>
-                    <Price> R$ 60,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 60,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>SALAME</TextSmall>
                     </div>
-                    <Price> R$ 20,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 20,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>MANDIOCA</TextSmall>
                     </div>
-                    <Price> R$ 20,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 20,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>CALABRESA</TextSmall>
                     </div>
-                    <Price> R$ 30,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 30,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>TILÁPIA</TextSmall>
                     </div>
-                    <Price> R$ 55,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 55,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>TEMAKI</TextSmall>
                     </div>
-                    <Price> R$ 20,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 20,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>SASHIMI</TextSmall>
                     </div>
-                    <Price> R$ 50,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 50,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>PARMEGIANA DE CARNE</TextSmall>
                     </div>
-                    <Price> R$ 20,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 20,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>ESCONDIDINHO DE CARNE SECA</TextSmall>
                     </div>
-                    <Price> R$ 15,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 15,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                     <TextSmall style={{fontSize: '14px'}}>CARNE SECA ACEBOLADA</TextSmall>
                     </div>
-                    <Price> R$ 60,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 60,00</Price>
                 </div>
                 <HorizontalLine />
             </motion.div>
