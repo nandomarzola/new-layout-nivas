@@ -69,7 +69,7 @@ export default function Header(){
                 transition={{ duration: 1.5 }}
                 style={{ width: '12v'}} 
             >   
-                <a href="https://www.instagram.com/planetpetmarilia/" style={{display:'flex', justifyContent:'center', alignItems:'center', gap:'5px',}}>
+                <a href="https://www.instagram.com/zoiomotoszm/" style={{display:'flex', justifyContent:'center', alignItems:'center', gap:'5px',}}>
                     <img 
                         src="images/zoio.png"  
                         alt="Planet Pet"

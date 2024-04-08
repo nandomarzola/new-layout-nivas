@@ -65,6 +65,20 @@ const DrinkNotAlcohol = () => {
                 </div>
                 <HorizontalLine />
             </motion.div>
+            <motion.div
+                initial={{ y: 500, opacity: 0 }} 
+                animate={{ y: 0, opacity: 1 }} 
+                transition={{ duration: 1.5 }}
+                style={{ width: '12v'}} 
+            >   
+                <a href="https://www.instagram.com/roseemarquess/" style={{display:'flex', justifyContent:'center', alignItems:'center', gap:'5px',}}>
+                    <img 
+                        src="images/rm.png"  
+                        alt="Planet Pet"
+                        style={{height:'38vh',  marginTop:'10px', marginBottom:'10px'}}
+                    />
+                </a>  
+            </motion.div>
         </Container>
         {/* <Footer /> */}
        </>
