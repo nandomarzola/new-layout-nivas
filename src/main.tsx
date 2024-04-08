@@ -14,6 +14,7 @@ import DrinkNotAlcohol from './routes/DrinkNotAlcohol.tsx';
 import Portions from './routes/Portions.tsx';
 import Snack from './routes/Snack.tsx';
 import Soup from './routes/Soup.tsx';
+import QRCode from './routes/QrCode.tsx';
 
 const router = createBrowserRouter([
   {
@@ -41,16 +42,16 @@ const router = createBrowserRouter([
         element: <Portions />
       },
       {
-        path: "portions",
-        element: <Portions />
-      },
-      {
         path: "snacks",
         element: <Snack />
       },
       {
         path: "soups",
         element: <Soup />
+      },
+      {
+        path: "qrcode",
+        element: <QRCode />
       }
     ]
   }
