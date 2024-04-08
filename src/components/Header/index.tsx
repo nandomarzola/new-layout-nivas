@@ -26,7 +26,7 @@ export default function Header(){
                 <a href="https://www.instagram.com/nandomarzoladev/" style={{display:'flex', justifyContent:'center', alignItems:'center', gap:'5px',}}>
                     <img 
                         src="images/logo-transparent.png"  
-                        alt="Omega"
+                        alt="Nando Marzola"
                         style={{height:'12vh'}}
                     />
                 </a>  
@@ -41,7 +41,7 @@ export default function Header(){
             >
                 <a href="https://www.instagram.com/omegatechservice/" style={{display:'flex', justifyContent:'center', alignItems:'center', gap:'5px', }}>
                     <img 
-                        src="https://3ff5263b8f.cbaul-cdnwnd.com/ca391f83a3a3faaf706896ebafa56111/200000078-ac999ac99c/logo%20omega%20PNG.png?ph=3ff5263b8f"  
+                        src="images/omega.png"  
                         alt="Omega"
                         style={{width:'36vh'}}
                     />    
@@ -57,8 +57,23 @@ export default function Header(){
                 <a href="https://www.instagram.com/planetpetmarilia/" style={{display:'flex', justifyContent:'center', alignItems:'center', gap:'5px',}}>
                     <img 
                         src="images/logo-planet.png"  
-                        alt="Omega"
+                        alt="Planet Pet"
                         style={{height:'6vh',  marginTop:'10px', marginBottom:'10px'}}
+                    />
+                </a>  
+                <HorizontalLine />
+            </motion.div>
+            <motion.div
+                initial={{ x: 500, opacity: 0 }} 
+                animate={{ x: 0, opacity: 1 }} 
+                transition={{ duration: 1.5 }}
+                style={{ width: '12v'}} 
+            >   
+                <a href="https://www.instagram.com/planetpetmarilia/" style={{display:'flex', justifyContent:'center', alignItems:'center', gap:'5px',}}>
+                    <img 
+                        src="images/zoio.png"  
+                        alt="Planet Pet"
+                        style={{height:'15vh',  marginTop:'10px', marginBottom:'10px'}}
                     />
                 </a>  
                 <HorizontalLine />
