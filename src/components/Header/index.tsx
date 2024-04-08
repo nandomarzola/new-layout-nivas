@@ -73,7 +73,7 @@ export default function Header(){
                     <img 
                         src="images/zoio.png"  
                         alt="Planet Pet"
-                        style={{height:'15vh',  marginTop:'10px', marginBottom:'10px'}}
+                        style={{height:'13vh',  marginTop:'10px', marginBottom:'10px'}}
                     />
                 </a>  
                 <HorizontalLine />
