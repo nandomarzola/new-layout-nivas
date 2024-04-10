@@ -127,33 +127,27 @@ const DrinkNotAlcohol = () => {
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
-                        <TextSmall style={{fontSize: '14px'}}>TEMAKI</TextSmall>
-                    </div>
-                    <Price style={{fontSize:'14px'}}> R$ 20,00</Price>
-                </div>
-                <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
-                    <div>
                         <TextSmall style={{fontSize: '14px'}}>SASHIMI</TextSmall>
                     </div>
                     <Price style={{fontSize:'14px'}}> R$ 50,00</Price>
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
-                        <TextSmall style={{fontSize: '14px'}}>PARMEGIANA DE CARNE</TextSmall>
-                    </div>
-                    <Price style={{fontSize:'14px'}}> R$ 20,00</Price>
-                </div>
-                <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
-                    <div>
-                        <TextSmall style={{fontSize: '14px'}}>ESCONDIDINHO DE CARNE SECA</TextSmall>
-                    </div>
-                    <Price style={{fontSize:'14px'}}> R$ 15,00</Price>
-                </div>
-                <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
-                    <div>
                     <TextSmall style={{fontSize: '14px'}}>CARNE SECA ACEBOLADA</TextSmall>
                     </div>
                     <Price style={{fontSize:'14px'}}> R$ 60,00</Price>
+                </div>
+                <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
+                    <div>
+                        <TextSmall style={{fontSize: '14px'}}>PASTELZINHO (20 UNIDADES)</TextSmall>
+                    </div>
+                    <Price style={{fontSize:'14px'}}> R$ 25,00</Price>
+                </div>
+                <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
+                    <div>
+                        <TextSmall style={{fontSize: '14px'}}>SUSHI</TextSmall>
+                    </div>
+                    <Price style={{fontSize:'14px'}}> GRÁTIS</Price>
                 </div>
                 <HorizontalLine />
             </motion.div>

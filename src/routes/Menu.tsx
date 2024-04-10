@@ -1,5 +1,5 @@
 import { Card } from "../components/Card"
-import { MdOutlineNoDrinks, MdFastfood } from "react-icons/md";
+import { MdOutlineNoDrinks, MdFastfood, MdFoodBank } from "react-icons/md";
 import { BiDrink } from "react-icons/bi";
 import { IoFastFood } from "react-icons/io5";
 import { TbSoup } from "react-icons/tb";
@@ -26,6 +26,9 @@ const Menu = () => {
             <div style={{margin:'0 20px 0 20px', display:'flex', justifyContent:'space-between', gap:'20px', marginTop:'40px'}}>
                     <Card href="soups" text="Caldos">
                         <TbSoup size={32} color="#000"/>
+                    </Card>
+                    <Card href="individual" text="Individuais">
+                        <MdFoodBank size={32} color="#000"/>
                     </Card>
             </div>
             {/* <Footer /> */}
