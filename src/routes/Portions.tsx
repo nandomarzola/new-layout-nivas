@@ -143,12 +143,12 @@ const DrinkNotAlcohol = () => {
                     </div>
                     <Price style={{fontSize:'14px'}}> R$ 25,00</Price>
                 </div>
-                <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
+                {/* <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>SUSHI</TextSmall>
                     </div>
                     <Price style={{fontSize:'14px'}}> GRÁTIS</Price>
-                </div>
+                </div> */}
                 <HorizontalLine />
             </motion.div>
         </Container>
