@@ -1,87 +1,48 @@
-import { useNavigate } from 'react-router';
-
 import {
     Container,
-    Title,
-    HorizontalLine,
-    Button
+    Image,
+    SubTitle,
+    AreaCard,
+    Content,
+    SocialContent,
+    SocialInsta,
+    SocialWpp,
+    HorizontalLine
 } from './styles'
 
-import { HiArrowCircleDown } from "react-icons/hi";
-import { motion } from "framer-motion";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+
 
 export default function Header(){
 
-    const navigate = useNavigate();
-
     return (
         <Container>
-            <Title>PARCEIROS</Title>
-            <motion.div
-                initial={{ x: -400, opacity: 0 }} 
-                animate={{ x: 0, opacity: 1 }} 
-                transition={{ duration: 1.5 }}
-                style={{ width: '12v'}} 
-            >
-                <a href="https://www.instagram.com/nandomarzoladev/" style={{display:'flex', justifyContent:'center', alignItems:'center', gap:'5px',}}>
-                    <img 
-                        src="images/logo-transparent.png"  
-                        alt="Nando Marzola"
-                        style={{height:'12vh'}}
-                    />
-                </a>  
-                <HorizontalLine />       
-            </motion.div>
+            <AreaCard />
             
-            <motion.div
-                initial={{ x: 500, opacity: 0 }} 
-                animate={{ x: 0, opacity: 1 }} 
-                transition={{ duration: 1.5 }}
-                style={{ width: '12v'}} 
-            >
-                <a href="https://www.instagram.com/omegatechservice/" style={{display:'flex', justifyContent:'center', alignItems:'center', gap:'5px', }}>
-                    <img 
-                        src="images/omega.png"  
-                        alt="Omega"
-                        style={{width:'36vh'}}
-                    />    
-                </a>  
-                <HorizontalLine />
-            </motion.div>
-            <motion.div
-                initial={{ x: -400, opacity: 0 }} 
-                animate={{ x: 0, opacity: 1 }} 
-                transition={{ duration: 1.5 }}
-                style={{ width: '12v'}} 
-            >      
-                <a href="https://www.instagram.com/planetpetmarilia/" style={{display:'flex', justifyContent:'center', alignItems:'center', gap:'5px',}}>
-                    <img 
-                        src="images/logo-planet.png"  
-                        alt="Planet Pet"
-                        style={{height:'6vh',  marginTop:'10px', marginBottom:'10px'}}
-                    />
-                </a>  
-                <HorizontalLine />
-            </motion.div>
-            <motion.div
-                initial={{ x: 500, opacity: 0 }} 
-                animate={{ x: 0, opacity: 1 }} 
-                transition={{ duration: 1.5 }}
-                style={{ width: '12v'}} 
-            >   
-                <a href="https://www.instagram.com/zoiomotoszm/" style={{display:'flex', justifyContent:'center', alignItems:'center', gap:'5px',}}>
-                    <img 
-                        src="images/zoio.png"  
-                        alt="Planet Pet"
-                        style={{height:'13vh',  marginTop:'10px', marginBottom:'10px'}}
-                    />
-                </a>  
-                <HorizontalLine />
-            </motion.div>
-            <Button onClick={() => navigate('/menu')} style={{marginTop:'4vh'}}>
-                <HiArrowCircleDown size={32} />
-                <p>Ver cárdapio completo</p>
-            </Button>
+            <Image src="images/logo-new.png" alt="Logo Nivas" />
+            <SubTitle>As melhores porções de marília</SubTitle>
+
+
+            <Content>
+                <h1>#HORÁRIO DE FUNCIONAMENTO</h1>
+                <div style={{background:'red', width:'36vh', textAlign:'center', margin:0}}>
+                    <h1>OBS: NÃO ABRIMOS NAS TERÇAS</h1>
+                </div>
+                <h1 style={{margin:'10px 0 0 0'}}>DE SE SEGUNDA À SEXTA DAS 13:00 AS 00:00</h1>
+                <h1 style={{margin:'3px 0 0 0'}}>SÁBADO E DOMINGO DAS 10:00 AS 20:00</h1>
+            </Content>
+
+            <SocialContent>
+                <SocialInsta href="aaa">
+                    <FaInstagram size={32} color='#FFF'/>
+                    @BARVITORIAMARILIA    
+                </SocialInsta>
+                <SocialWpp href="aaa">
+                    <FaWhatsapp size={32} color='#FFF'/>
+                    (14) 99624-2006
+                </SocialWpp>
+            </SocialContent>
+            <HorizontalLine />
         </Container>
     )
 }

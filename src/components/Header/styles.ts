@@ -4,43 +4,101 @@ export const Container = styled.div`
    display:flex;
    justify-content:center;
    flex-direction:column;
-   padding: 1rem;
-   color:#FFF;
+   color:#FEC108;
+   width:100%;
 `;
 
-export const ImgLogo = styled.img`
-   width:12rem;
+export const Image = styled.img`
    margin:0 auto;
 `;
 
+export const SubTitle = styled.h1`
+   color:#FEC108;
+   font-family: "Lobster Two", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   text-align:center;
+`
+
+export const AreaCard = styled.div`
+   height:6vh;
+   background:#FEC108;
+   width:100%;
+`
+
+export const Content = styled.div`
+   width:100%;
+   display:flex;
+   flex-direction:column;
+
+   & h1{
+      color:#fff;
+      font-size:18px;
+      margin:8px 0 5px 0;
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: bold;
+      font-style: normal;
+   }
+`
+
+export const SocialContent = styled.div`
+   margin-top:18px;
+   display:flex;
+   gap:42px;
+   justify-content:space-between;
+`
+
+export const SocialWpp = styled.a`
+   background:green;
+   width:33vh;
+   height:6vh;
+   border-radius:8px;
+   display:flex;
+   justify-content:center;
+   padding:22px;
+   align-items:center;
+   gap:8px;
+   font-size:22px;
+   color:#FFF;
+   font-family: "Roboto Condensed", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: bold;
+   font-style: normal;
+   text-align:center;
+`
+
+export const SocialInsta = styled.a`
+   background:red;
+   width:34vh;
+   height:6vh;
+   border-radius:8px;
+   display:flex;
+   gap:8px;
+   padding:4px;
+   justify-content:center;
+   align-items:center;
+   font-size:22px;
+   color:#FFF;
+   font-family: "Roboto Condensed", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: bold;
+   font-style: normal;
+   text-align:center;
+`
+
 export const HorizontalLine = styled.hr`
-   border: 0;
-   height: 1px; /* Altura da linha */
-   background: linear-gradient(to right, #888, #F29F05, #888); /* Gradiente de cores */
-   margin: 10px 0; /* Espaçamento acima e abaixo da linha */
+   margin-top:12px;
+   border: 2px solid red;
+   border-style: dotted;
 `;
 
-export const Title = styled.h1`
-   font-size:18px;
-   padding:5px;
-   width:240px;
-   border-radius:8px;
-   color:#F29F05;
-`
 
-export const Text = styled.p`
-   font-family: "Roboto", sans-serif;
-   margin-top:10px;
-   font-weight:bold;
-   margin-bottom:12px;
-`
 
-export const TextSmall = styled.p`
-   font-size:10px;
-   font-family: "Roboto", sans-serif;
-   max-width:250px;
 
-`
+
+
+
 
 export const Price = styled.p`
    font-size:12px;
@@ -49,19 +107,3 @@ export const Price = styled.p`
    font-family: "Roboto", sans-serif;
 `
 
-export const Button = styled.button`
-   background: #F29F05;
-   font-family: "Roboto", sans-serif;
-   border:0;
-   height:45px;
-   border-radius:8px;
-   display:flex;
-   justify-content:center;
-   align-items:center;
-   text-transform:uppercase;
-   font-weight:bold;
-   margin-top:12px;
-   font-size:14px;
-   gap:10px;
-   cursor:pointer;
-`  

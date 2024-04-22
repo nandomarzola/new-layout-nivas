@@ -1,15 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   max-width: 100vh;
+  margin: 0 auto;
+  max-width: 100vh;
 }
 
 body {
-  background-color: black;
-  min-height: 100vh;
   flex-shrink: 0;
+  background: black;
+  min-width: 100vh;
 }
 
 p {
