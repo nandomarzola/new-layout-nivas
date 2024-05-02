@@ -55,8 +55,8 @@ const DrinkNotAlcohol = () => {
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
                     <div>
-                        <TextSmall style={{fontSize: '14px'}}>PICANHA</TextSmall>
-                        <TextSmall style={{fontSize: '9px', fontWeight:'bold'}}>(VINAGRETE, FAROFA)</TextSmall>
+                        <TextSmall style={{fontSize: '14px'}}>PICANHA NA CHAPA</TextSmall>
+                        <TextSmall style={{fontSize: '9px', fontWeight:'bold'}}>(MANDIOCA, VINAGRETE, FAROFA)</TextSmall>
                     </div>
                     <Price style={{fontSize:'14px'}}> R$ 90,00</Price>
                 </div>
