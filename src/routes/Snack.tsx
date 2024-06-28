@@ -69,6 +69,10 @@ const Cookies = () => {
                 <TextSmall>QUEIJO</TextSmall>
                     <Price> R$ 3,00</Price>
                 </div>
+                <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px'}}>
+                <TextSmall>LINGUIÇA</TextSmall>
+                    <Price> R$ 3,00</Price>
+                </div>
                 <HorizontalLine />
                 <Title>PASTEIS</Title>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px', marginTop:'10px'}}>
@@ -81,6 +85,10 @@ const Cookies = () => {
                 </div>
                 <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px'}}>
                 <TextSmall>QUEIJO</TextSmall>
+                    <Price> R$ 10,00</Price>
+                </div>
+                <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems:'center', marginBottom:'8px'}}>
+                <TextSmall>TILÁPIA</TextSmall>
                     <Price> R$ 10,00</Price>
                 </div>
                 <HorizontalLine />
