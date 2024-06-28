@@ -67,7 +67,7 @@ const Individual = () => {
                     <div>
                         <TextSmall style={{fontSize: '14px'}}>TORRESMO</TextSmall>
                     </div>
-                    <Price style={{fontSize:'14px'}}> R$ 20,00</Price>
+                    <Price style={{fontSize:'14px'}}> R$ 10,00</Price>
                 </div>
                 <HorizontalLine />
             </motion.div>
